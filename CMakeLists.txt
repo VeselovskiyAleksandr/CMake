@@ -6,6 +6,6 @@ cmake_minimum_required (VERSION 3.8)
 Project (surgery)
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable ( "CMake.cpp" "CMake.h" "main.cpp")
+add_executable ("CMake.cpp" "CMake.h" "main.cpp")
        
 # TODO: Добавьте тесты и целевые объекты, если это необходимо.

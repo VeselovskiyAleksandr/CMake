@@ -4,7 +4,7 @@
 #include "hemostat.cpp"
 #include "tweezers.cpp"
 #include <iostream>
-
+#include "locale.h"
 using namespace std;
 
 int main()
