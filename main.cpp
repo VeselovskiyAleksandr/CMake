@@ -1,8 +1,8 @@
 
-#include "skalpel.cpp"
-#include "seam.cpp"
-#include "hemostat.cpp"
-#include "tweezers.cpp"
+#include "skalpel.h"
+#include "seam.h"
+#include "hemostat.h"
+#include "tweezers.h"
 #include <iostream>
 #include "locale.h"
 using namespace std;
