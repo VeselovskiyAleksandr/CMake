@@ -4,8 +4,10 @@
 cmake_minimum_required (VERSION 3.8)
 
 Project ("surgery")
-
+set(SOURCES
+         main.cpp
+        hemostat.cpp seam.cpp skalpel.cpp tweezers.cpp)
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (surgery main.cpp hemostat.cpp seam.cpp skalpel.cpp tweezers.cpp)
+add_executable (surgery ${SOURCES}  )
        
 # TODO: Добавьте тесты и целевые объекты, если это необходимо.
